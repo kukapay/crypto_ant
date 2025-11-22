@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "test": {
+      "url": "https://test.kukapay.com/api/mcp",
+      "transport": "streamable_http"
+    },
+    "crypto-stocks": {
+      "command": "uv",
+      "args": ["--directory", "/repo/crypto-stocks-mcp", "run", "main.py"],
+      "transport": "stdio"
+    }
+  }
+}
