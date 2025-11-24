@@ -1,4 +1,4 @@
-from crypto_ant.utils.ui import UI
+from cryptoant.utils.ui import UI
 
 
 class Logger:

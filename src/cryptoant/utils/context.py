@@ -6,14 +6,14 @@ from typing import List, Dict, Any, Optional
 from pathlib import Path
 from pydantic import BaseModel
 
-from crypto_ant.model import call_llm
-from crypto_ant.prompts import DEFAULT_SYSTEM_PROMPT, CONTEXT_SELECTION_SYSTEM_PROMPT
+from cryptoant.model import call_llm
+from cryptoant.prompts import DEFAULT_SYSTEM_PROMPT, CONTEXT_SELECTION_SYSTEM_PROMPT
 
 
 class ContextManager:
     """Manages context offloading and onloading for tool outputs."""
     
-    def __init__(self, context_dir: str = ".crypto_ant/context"):
+    def __init__(self, context_dir: str = ".cryptoant/context"):
         """
         Initialize the context manager.
         
@@ -195,7 +195,7 @@ class ContextManager:
         Only select outputs that contain data directly relevant to answering the query.
         """
         
-        from crypto_ant.schemas import SelectedContexts
+        from cryptoant.schemas import SelectedContexts
         
         try:
             response = call_llm(

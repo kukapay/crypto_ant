@@ -4,7 +4,7 @@ import asyncio
 from pathlib import Path
 from typing_extensions import Callable
 from langchain_mcp_adapters.client import MultiServerMCPClient
-from crypto_ant.tools.search.google import search_google_news
+from cryptoant.tools.search.google import search_google_news
   
 def get_mcp_tools():
     def load_mcp_config():

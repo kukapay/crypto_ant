@@ -3,10 +3,10 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-from crypto_ant.agent import Agent
-from crypto_ant.utils.intro import print_intro
-from prompt_toolkit import PromptSession
-from prompt_toolkit.history import InMemoryHistory
+from cryptoant.agent import Agent
+from cryptoant.utils.intro import print_intro
+#from prompt_toolkit import PromptSession
+#from prompt_toolkit.history import InMemoryHistory
 from rich.prompt import Prompt
 
 def main():

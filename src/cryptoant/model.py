@@ -8,7 +8,7 @@ from langchain_core.tools import BaseTool
 from langchain_core.messages import AIMessage
 from openai import APIConnectionError
 
-from crypto_ant.prompts import DEFAULT_SYSTEM_PROMPT
+from cryptoant.prompts import DEFAULT_SYSTEM_PROMPT
 
 # Initialize the OpenAI client
 # Make sure your OPENAI_API_KEY is set in your .env

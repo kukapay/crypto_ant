@@ -2,8 +2,8 @@ from typing import List
 
 from langchain_core.messages import AIMessage
 
-from crypto_ant.model import call_llm, call_llm_stream
-from crypto_ant.prompts import (
+from cryptoant.model import call_llm, call_llm_stream
+from cryptoant.prompts import (
     ACTION_SYSTEM_PROMPT,
     get_answer_system_prompt,
     PLANNING_SYSTEM_PROMPT,
@@ -11,11 +11,11 @@ from crypto_ant.prompts import (
     VALIDATION_SYSTEM_PROMPT,
     META_VALIDATION_SYSTEM_PROMPT,
 )
-from crypto_ant.schemas import Answer, IsDone, OptimizedToolArgs, Task, TaskList
-from crypto_ant.tools import TOOLS
-from crypto_ant.utils.logger import Logger
-from crypto_ant.utils.ui import show_progress
-from crypto_ant.utils.context import ContextManager
+from cryptoant.schemas import Answer, IsDone, OptimizedToolArgs, Task, TaskList
+from cryptoant.tools import TOOLS
+from cryptoant.utils.logger import Logger
+from cryptoant.utils.ui import show_progress
+from cryptoant.utils.context import ContextManager
 import asyncio
 
 class Agent:

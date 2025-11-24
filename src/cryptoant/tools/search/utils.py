@@ -1,6 +1,6 @@
 import re
 from typing import List
-from crypto_ant.tools.search.models import SearchResult
+from cryptoant.tools.search.models import SearchResult
 from datetime import datetime
 
 def parse_rss_content(xml_content: str, max_results: int) -> List[SearchResult]:

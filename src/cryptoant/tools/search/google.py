@@ -1,7 +1,7 @@
 import requests
 from concurrent.futures import ThreadPoolExecutor
-from crypto_ant.tools.search.models import SearchResult
-from crypto_ant.tools.search.utils import parse_rss_content
+from cryptoant.tools.search.models import SearchResult
+from cryptoant.tools.search.utils import parse_rss_content
 from langchain.tools import tool
 from pydantic import BaseModel, Field
 

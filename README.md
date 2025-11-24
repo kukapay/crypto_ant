@@ -19,8 +19,8 @@ CryptoAnt is 100% MCP-native. Connect any public or private MCP server (Raydium/
 ### Quick Start
 
 ```bash
-git clone https://github.com/kukapay/crypto_ant.git
-cd crypto_ant
+git clone https://github.com/kukapay/cryptoant.git
+cd cryptoant
 
 uv sync                                    # lightning-fast install
 
@@ -30,7 +30,7 @@ cp mcp.json.example mcp.json
 # Edit .env → add your OpenAI (or compatible) key
 # Edit mcp.json → add the MCP servers you want
 
-uv run agent                                # start asking
+uv run ant                                # start asking
 ```
 
 ### Configuration
